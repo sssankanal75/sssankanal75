@@ -19,7 +19,7 @@ public class Browser_launch {
 	 Thread.sleep(5000);
 	 driver.findElement(By.xpath("//b[@class='text-white']")).click();
 	Thread.sleep(5000);
-	// driver.quit();
+	driver.quit();
 	//relative leading-[24px]
 	}
 }
